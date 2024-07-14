@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header-nav.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./images/ShoppingCar/font_wsnlokwzw3/iconfont.css">
+    <link rel="stylesheet" href="./images/MI_home/font_87fdn19wjy/iconfont.css">
+    <link rel="stylesheet" href="./images/MI-logo/font_dgasjeygoha/iconfont.css">
+    <link rel="stylesheet" href="./images/search-logo/font_78bkflgyw47/iconfont.css">
+    <link rel="stylesheet" href="./images/right-arrow/font_upsh7cjefe/iconfont.css">
+    <link rel="stylesheet" href="./images/mobile-card/font_46wfwqbcduc/iconfont.css">
+    <link rel="stylesheet" href="./images/paly-video/font_7udo4qbci57/iconfont.css">
+    <link rel="stylesheet" href="./images/repair-tool/font_tuk2gvv1qzd/iconfont.css">
+    <link rel="stylesheet" href="./images/wechat-weibo/font_qc5pmisu59/iconfont.css">
+</head>
+
+<body>
+    <!-- 顶部广告 -->
+    <header>
+        <a href="https://www.mi.com/appdownload">
+            <img src="./images/ad_banner.jpg" alt="广告">
+        </a>
+    </header>
+    <!-- 顶部广告 -->
+
+    <!-- 导航 -->
+    <nav>
+        <div class="container">
+            <div class="topbar-nav">
+                <a href="https://www.mi.com/html/index.html">小米商城</a>
+                <span class="sep">|</span>
+                <a href="https://home.miui.com/">MIUI</a>
+                <span class="sep">|</span>
+                <a href="https://iot.mi.com/">IoT</a>
+                <span class="sep">|</span>
+                <a href="https://i.mi.com/">云服务</a>
+                <span class="sep">|</span>
+                <a href="https://airstar.com/home">天星数科</a>
+                <span class="sep">|</span>
+                <a href="https://youpin.mi.com/">有品</a>
+                <span class="sep">|</span>
+                <a href="https://xiaoai.mi.com/">小爱开放平台</a>
+                <span class="sep">|</span>
+                <a href="https://qiye.mi.com/">企业团购</a>
+                <span class="sep">|</span>
+                <a href="https://www.mi.com/aptitude/list/?id=41">资质证照</a>
+                <span class="sep">|</span>
+                <a href="https://www.mi.com/shop/aptitude/list">协议规则</a>
+                <span class="sep">|</span>
+                <a href="https://www.mi.com/appdownload" class="download">
+                    <span>下载App</span>
+                    <div class="downloadQR">
+                        <img src="./images/download.png" alt="下载二维码">
+                    </div>
+                </a>
+                <span class="sep">|</span>
+                <a href="https://xiaomishare.mi.com/?from=micom">智能生活</a>
+            </div>
+            <div class="topinfo-nav">
+                <a
+                    href="https://account.xiaomi.com/fe/service/login/password?_qrsize=180&sid=mi_eshop&qs=%253Fcallback%253Dhttp%25253A%25252F%25252Forder.mi.com%25252Flogin%25252Fcallback%25253Ffollowup%25253Dhttps%2525253A%2525252F%2525252Fwww.mi.com%2525252Fshop%2525252Faptitude%2525252Flist%252526sign%25253DMGNlZTA0YzhhYjgwMjBhZTYzOGUxNjM4NGM4MTBhNWJkNmRiZWRjNw%25252C%25252C%2526sid%253Dmi_eshop%2526_qrsize%253D180&callback=http%3A%2F%2Forder.mi.com%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Fwww.mi.com%252Fshop%252Faptitude%252Flist%26sign%3DMGNlZTA0YzhhYjgwMjBhZTYzOGUxNjM4NGM4MTBhNWJkNmRiZWRjNw%2C%2C&_sign=MTke%2BnQzs45IraaNJebmQDqMiWA%3D&serviceParam=%7B%22checkSafePhone%22%3Afalse%2C%22checkSafeAddress%22%3Afalse%2C%22lsrp_score%22%3A0.0%7D&showActiveX=false&theme=&needTheme=false&bizDeviceType=&_locale=zh_CN">登录</a>
+                <span class="sep">|</span>
+                <a
+                    href="https://account.xiaomi.com/fe/service/login/password?_qrsize=180&sid=mi_eshop&qs=%253Fcallback%253Dhttp%25253A%25252F%25252Forder.mi.com%25252Flogin%25252Fcallback%25253Ffollowup%25253Dhttps%2525253A%2525252F%2525252Fwww.mi.com%2525252Fshop%2525252Faptitude%2525252Flist%252526sign%25253DMGNlZTA0YzhhYjgwMjBhZTYzOGUxNjM4NGM4MTBhNWJkNmRiZWRjNw%25252C%25252C%2526sid%253Dmi_eshop%2526_qrsize%253D180&callback=http%3A%2F%2Forder.mi.com%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Fwww.mi.com%252Fshop%252Faptitude%252Flist%26sign%3DMGNlZTA0YzhhYjgwMjBhZTYzOGUxNjM4NGM4MTBhNWJkNmRiZWRjNw%2C%2C&_sign=MTke%2BnQzs45IraaNJebmQDqMiWA%3D&serviceParam=%7B%22checkSafePhone%22%3Afalse%2C%22checkSafeAddress%22%3Afalse%2C%22lsrp_score%22%3A0.0%7D&showActiveX=false&theme=&needTheme=false&bizDeviceType=&_locale=zh_CN">注册</a>
+                <span class="sep">|</span>
+                <a href="#">消息通知</a>
+                <a href="#">
+                    <span class="shoppingcar">
+                        <span class="iconfont icon-gouwuche"></span>
+                        <span>购物车（0）</span>
+                        <div class="tooltip">购物车中还没有商品，赶紧选购吧！</div>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- 导航 -->
+
+    <!-- 白色导航 -->
+    <div class="white-nav-background">
+        <div class="white-nav wrap">
+            <div class="logo">
+                <span class="iconfont icon-xiaomi mi-logo"></span>
+                <span class="iconfont icon-home mi-home"></span>
+            </div>
+            <ul class="white-nav-left">
+                <li>
+                    <a href="#">小米手机</a>
+                    <div class="nav-detial-block">
+                        <div class="wrap">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="./images/phone2.png" alt="">
+                                        </div>
+                                        <p class="name">小米10至尊纪念版</p>
+                                        <p class="price">5200元</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="./images/phone2.png" alt="">
+                                        </div>
+                                        <p class="name">小米10至尊纪念版</p>
+                                        <p class="price">5200元</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="img-box">
+                                            <img src="./images/phone2.png" alt="">
+                                        </div>
+                                        <p class="name">小米10至尊纪念版</p>
+                                        <p class="price">5200元</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">电脑</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">家电</a></li>
+                <li><a href="#">路由器</a></li>
+                <li><a href="#">智能硬件</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">社区</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="元宇宙">
+                <button class="iconfont icon-sousuo"></button>
+            </div>
+        </div>
+    </div>
+    <!-- 白色导航 -->
+
+    <!-- 轮播图滑动门 -->
+    <div class="carousel">
+        <img src="./images/banner.jpg" alt="轮播图" class="carousel-image">
+        <div class="product-catalog-background">
+            <ul class="product-catalog">
+                <li>
+                    <span class="product-catalog-text">手机</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                    <div class="product-detial">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                                <td>
+                                    <img src="./images/phone.png" alt="">
+                                    <p>Redmi Note 12 Pro+</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+                <li>
+                    <span class="product-catalog-text">电视</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                </li>
+                <li>
+                    <span class="product-catalog-text">家电</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                </li>
+                <li>
+                    <span class="product-catalog-text">笔记本 平板</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                </li>
+                <li>
+                    <span class="product-catalog-text">出行 穿戴</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                </li>
+                <li>
+                    <span class="product-catalog-text">耳机 音箱</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                </li>
+                <li>
+                    <span class="product-catalog-text">健康 儿童</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                </li>
+                <li>
+                    <span class="product-catalog-text">生活 箱包</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                </li>
+                <li>
+                    <span class="product-catalog-text">智能 路由器</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                </li>
+                <li>
+                    <span class="product-catalog-text">电源 配件</span>
+                    <span class="iconfont icon-youjiantou arrow"></span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- 轮播图滑动门 -->
+
+    <!-- 广告模块 -->
+    <div class="ad-wrap wrap">
+        <!-- 网格排列的广告 -->
+        <div class="grid-ad">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-shoujiqia"></i>
+                        <p>米粉卡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-shoujiqia"></i>
+                        <p>米粉卡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-shoujiqia"></i>
+                        <p>米粉卡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-shoujiqia"></i>
+                        <p>米粉卡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-shoujiqia"></i>
+                        <p>米粉卡</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="iconfont icon-shoujiqia"></i>
+                        <p>米粉卡</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <img src="./images/ad.jpg" alt="">
+        <img src="./images/ad.jpg" alt="">
+        <img src="./images/ad.jpg" alt="">
+    </div>
+
+    <!-- 用于分割的广告栏 start -->
+    <div class="divide-banner wrap">
+        <a href="#">
+            <img src="./images/divide-banner1.jpg" alt="">
+        </a>
+    </div>
+    <!-- 用于分割的广告栏 end -->
+
+    <div class="main-body-background">
+        <!-- 手机广告区 start -->
+
+        <!-- 手机标题 start -->
+        <div class="product-title wrap">
+            <h2>手机</h2>
+            <a href="#">
+                <p>查看全部</p>
+                <i class="iconfont icon-youjiantou"></i>
+            </a>
+        </div>
+        <!-- 手机标题 end -->
+
+        <div class="phone-block wrap">
+            <!-- 左侧的区域 -->
+            <div class="left-block ad-box-on-hover">
+                <a href="#">
+                    <img src="./images/phone-block-left.jpg" alt="">
+                </a>
+            </div>
+            <!-- 右侧的广告列表 -->
+            <ul class="right-block">
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/phone-block-content.jpg" alt="">
+                        <p class="phone-type">小米9 6GB+128GB</p>
+                        <p class="phone-feature">骁龙855，索尼4800万超广角微距三摄</p>
+                        <p class="phone-price">
+                            <span class="current price">2599元</span>
+                            <del class="original price">2999元</del>
+                        </p>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/phone-block-content.jpg" alt="">
+                        <p class="phone-type">小米9 6GB+128GB</p>
+                        <p class="phone-feature">骁龙855，索尼4800万超广角微距三摄</p>
+                        <p class="phone-price">
+                            <span class="current price">2599元</span>
+                            <del class="original price">2999元</del>
+                        </p>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/phone-block-content.jpg" alt="">
+                        <p class="phone-type">小米9 6GB+128GB</p>
+                        <p class="phone-feature">骁龙855，索尼4800万超广角微距三摄</p>
+                        <p class="phone-price">
+                            <span class="current price">2599元</span>
+                            <del class="original price">2999元</del>
+                        </p>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/phone-block-content.jpg" alt="">
+                        <p class="phone-type">小米9 6GB+128GB</p>
+                        <p class="phone-feature">骁龙855，索尼4800万超广角微距三摄</p>
+                        <p class="phone-price">
+                            <span class="current price">2599元</span>
+                            <del class="original price">2999元</del>
+                        </p>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/phone-block-content.jpg" alt="">
+                        <p class="phone-type">小米9 6GB+128GB</p>
+                        <p class="phone-feature">骁龙855，索尼4800万超广角微距三摄</p>
+                        <p class="phone-price">
+                            <span class="current price">2599元</span>
+                            <del class="original price">2999元</del>
+                        </p>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/phone-block-content.jpg" alt="">
+                        <p class="phone-type">小米9 6GB+128GB</p>
+                        <p class="phone-feature">骁龙855，索尼4800万超广角微距三摄</p>
+                        <p class="phone-price">
+                            <span class="current price">2599元</span>
+                            <del class="original price">2999元</del>
+                        </p>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/phone-block-content.jpg" alt="">
+                        <p class="phone-type">小米9 6GB+128GB</p>
+                        <p class="phone-feature">骁龙855，索尼4800万超广角微距三摄</p>
+                        <p class="phone-price">
+                            <span class="current price">2599元</span>
+                            <del class="original price">2999元</del>
+                        </p>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/phone-block-content.jpg" alt="">
+                        <p class="phone-type">小米9 6GB+128GB</p>
+                        <p class="phone-feature">骁龙855，索尼4800万超广角微距三摄</p>
+                        <p class="phone-price">
+                            <span class="current price">2599元</span>
+                            <del class="original price">2999元</del>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 手机广告区 end -->
+
+        <!-- 家电广告区 start -->
+
+        <!-- 用于分割的广告栏 start -->
+        <div class="divide-banner wrap">
+            <a href="#">
+                <img src="./images/divide-banner2.jpg" alt="">
+            </a>
+        </div>
+        <!-- 用于分割的广告栏 end -->
+
+        <!-- 家电标题 start -->
+        <div class="product-title wrap">
+            <h2>家电</h2>
+            <ul class="household-appliances-types">
+                <li>
+                    <p>热门</p>
+                </li>
+                <li>
+                    <p>电视影音</p>
+                </li>
+                <li>
+                    <p>电脑</p>
+                </li>
+                <li>
+                    <p>家居</p>
+                </li>
+            </ul>
+        </div>
+        <!-- 家电标题 end -->
+
+        <!-- 家电主题 -->
+        <div class="household-appliances-body wrap">
+            <div class="household-appliances-left-block">
+                <a href="#">
+                    <img src="./images/elc-left.jpg" alt="" class="ad-box-on-hover">
+                </a>
+                <a href="">
+                    <img src="./images/elc-left2.jpg" alt="" class="ad-box-on-hover">
+                </a>
+            </div>
+            <ul class="household-appliances-right-block">
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/elc-right.jpg" alt="">
+                        <p class="phone-type">小米电视4A 32英寸</p>
+                        <p class="phone-feature">64位四核处理器 / 1GB+4GB大内存</p>
+                        <p class="phone-price">
+                            <span class="current price">699元</span>
+                            <del class="original price">799元</del>
+                        </p>
+                        <div class="comment-pop">
+                            <p class="comment">小米电视不错</p>
+                            <p class="comment-user">来自 Johana 的评价</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/elc-right.jpg" alt="">
+                        <p class="phone-type">小米电视4A 32英寸</p>
+                        <p class="phone-feature">64位四核处理器 / 1GB+4GB大内存</p>
+                        <p class="phone-price">
+                            <span class="current price">699元</span>
+                            <del class="original price">799元</del>
+                        </p>
+                        <div class="comment-pop">
+                            <p class="comment">小米电视不错</p>
+                            <p class="comment-user">来自 Johana 的评价</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/elc-right.jpg" alt="">
+                        <p class="phone-type">小米电视4A 32英寸</p>
+                        <p class="phone-feature">64位四核处理器 / 1GB+4GB大内存</p>
+                        <p class="phone-price">
+                            <span class="current price">699元</span>
+                            <del class="original price">799元</del>
+                        </p>
+                        <div class="comment-pop">
+                            <p class="comment">小米电视不错</p>
+                            <p class="comment-user">来自 Johana 的评价</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/elc-right.jpg" alt="">
+                        <p class="phone-type">小米电视4A 32英寸</p>
+                        <p class="phone-feature">64位四核处理器 / 1GB+4GB大内存</p>
+                        <p class="phone-price">
+                            <span class="current price">699元</span>
+                            <del class="original price">799元</del>
+                        </p>
+                        <div class="comment-pop">
+                            <p class="comment">小米电视不错</p>
+                            <p class="comment-user">来自 Johana 的评价</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/elc-right.jpg" alt="">
+                        <p class="phone-type">小米电视4A 32英寸</p>
+                        <p class="phone-feature">64位四核处理器 / 1GB+4GB大内存</p>
+                        <p class="phone-price">
+                            <span class="current price">699元</span>
+                            <del class="original price">799元</del>
+                        </p>
+                        <div class="comment-pop">
+                            <p class="comment">小米电视不错</p>
+                            <p class="comment-user">来自 Johana 的评价</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/elc-right.jpg" alt="">
+                        <p class="phone-type">小米电视4A 32英寸</p>
+                        <p class="phone-feature">64位四核处理器 / 1GB+4GB大内存</p>
+                        <p class="phone-price">
+                            <span class="current price">699元</span>
+                            <del class="original price">799元</del>
+                        </p>
+                        <div class="comment-pop">
+                            <p class="comment">小米电视不错</p>
+                            <p class="comment-user">来自 Johana 的评价</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/elc-right.jpg" alt="">
+                        <p class="phone-type">小米电视4A 32英寸</p>
+                        <p class="phone-feature">64位四核处理器 / 1GB+4GB大内存</p>
+                        <p class="phone-price">
+                            <span class="current price">699元</span>
+                            <del class="original price">799元</del>
+                        </p>
+                        <div class="comment-pop">
+                            <p class="comment">小米电视不错</p>
+                            <p class="comment-user">来自 Johana 的评价</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <img src="./images/elc-right.jpg" alt="">
+                        <p class="phone-type">小米电视4A 32英寸</p>
+                        <p class="phone-feature">64位四核处理器 / 1GB+4GB大内存</p>
+                        <p class="phone-price">
+                            <span class="current price">699元</span>
+                            <del class="original price">799元</del>
+                        </p>
+                        <div class="comment-pop">
+                            <p class="comment">小米电视不错</p>
+                            <p class="comment-user">来自 Johana 的评价</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 家电广告区 end -->
+
+
+         <!-- 用于分割的广告栏 start -->
+         <div class="divide-banner wrap">
+            <a href="#">
+                <img src="./images/divide-banner3.jpg" alt="">
+            </a>
+        </div>
+        <!-- 用于分割的广告栏 end -->
+
+        <!-- 视频标题 start -->
+        <div class="product-title wrap">
+            <h2>视频</h2>
+            <a href="#">
+                <p>查看全部</p>
+                <i class="iconfont icon-youjiantou"></i>
+            </a>
+        </div>
+        <!-- 视频标题 end -->
+
+        <!-- 视频列表 start -->
+        <div class="wrap">
+            <ul class="video-list">
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <div class="video-cover">
+                            <img src="./images/video-cover1.png">
+                            <div class="play-video-button">
+                                <i class="iconfont icon-bofang"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <p class="video-title">小米CC9</p>
+                    </a>
+                    <p class="vedio-describe">深蓝星球</p>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <div class="video-cover">
+                            <img src="./images/video-cover1.png">
+                            <div class="play-video-button">
+                                <i class="iconfont icon-bofang"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <p class="video-title">小米CC9</p>
+                    </a>
+                    <p class="vedio-describe">深蓝星球</p>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <div class="video-cover">
+                            <img src="./images/video-cover1.png">
+                            <div class="play-video-button">
+                                <i class="iconfont icon-bofang"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <p class="video-title">小米CC9</p>
+                    </a>
+                    <p class="vedio-describe">深蓝星球</p>
+                </li>
+                <li class="ad-box-on-hover">
+                    <a href="#">
+                        <div class="video-cover">
+                            <img src="./images/video-cover1.png">
+                            <div class="play-video-button">
+                                <i class="iconfont icon-bofang"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <p class="video-title">小米CC9</p>
+                    </a>
+                    <p class="vedio-describe">深蓝星球</p>
+                </li>
+            </ul>
+        </div>   
+        <!-- 视频列表 end -->
+
+    </div>
+
+    <!-- 页脚 start -->
+    <div class="footer wrap">
+        <ul class="service-block">
+            <li class="first-service">
+                <a href="#">
+                    <i class="iconfont icon-wxbgongju"></i>
+                    <span>预约修理服务</span>
+                </a>
+            </li>
+            <li class="normal-service">
+                <a href="#">
+                    <i class="iconfont icon-wxbgongju"></i>
+                    <span>预约修理服务</span>
+                </a>
+            </li>
+            <li class="normal-service">
+                <a href="#">
+                    <i class="iconfont icon-wxbgongju"></i>
+                    <span>预约修理服务</span>
+                </a>
+            </li>
+            <li class="normal-service">
+                <a href="#">
+                    <i class="iconfont icon-wxbgongju"></i>
+                    <span>预约修理服务</span>
+                </a>
+            </li>
+            <li class="normal-service">
+                <a href="#">
+                    <i class="iconfont icon-wxbgongju"></i>
+                    <span>预约修理服务</span>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-links">
+            <div class="link-block">
+                <p class="link-title">服务中心</p>
+                <ul>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">订单操作</a></li>
+                    <li><a href="#">购物指南</a></li>
+                </ul>
+            </div>
+            <div class="link-block">
+                <p class="link-title">服务中心</p>
+                <ul>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">订单操作</a></li>
+                    <li><a href="#">购物指南</a></li>
+                </ul>
+            </div>
+            <div class="link-block">
+                <p class="link-title">服务中心</p>
+                <ul>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">订单操作</a></li>
+                    <li><a href="#">购物指南</a></li>
+                </ul>
+            </div>
+            <div class="link-block">
+                <p class="link-title">服务中心</p>
+                <ul>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">订单操作</a></li>
+                    <li><a href="#">购物指南</a></li>
+                </ul>
+            </div>
+            <div class="link-block">
+                <p class="link-title">服务中心</p>
+                <ul>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">订单操作</a></li>
+                    <li><a href="#">购物指南</a></li>
+                </ul>
+            </div>
+            <div class="link-block">
+                <p class="link-title">服务中心</p>
+                <ul>
+                    <li><a href="#">账户管理</a></li>
+                    <li><a href="#">订单操作</a></li>
+                    <li><a href="#">购物指南</a></li>
+                </ul>
+            </div>
+            <div class="contact-block">
+                <p class="phone-number">400-100-5678</p>
+                <p class="available-time">9:00-18:00（仅收市话费）</p>
+                <div class="contact-button-wrap">
+                    <input type="button" value="人工客服" class="contact-button">
+                </div>
+                <p class="subscribe-title">关注小米：</p>
+                <a href="#"><i class="iconfont icon-xinlangweibo"></i></a>
+                <a href=""><i class="iconfont icon-weixin"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚 end -->
+</body>
+
+</html>

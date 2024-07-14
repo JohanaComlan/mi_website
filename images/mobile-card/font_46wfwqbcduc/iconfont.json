@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2576927",
+      "name": "手机卡",
+      "font_class": "shoujiqia",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    }
+  ]
+}

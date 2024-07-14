@@ -1,0 +1,414 @@
+/* 轮播图滑动门 start*/
+.carousel {
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.carousel .carousel-image {
+    width: 100%;
+}
+
+.carousel .product-catalog-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 234px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+}
+
+.product-catalog {
+    margin: auto 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 42px;
+}
+
+.product-catalog li {
+    padding-left: 30px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.product-catalog li:hover {
+    background-color: #FE6900;
+}
+
+.product-catalog li .arrow {
+    margin-left: auto;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 900;
+}
+
+.product-catalog li:hover .product-detial {
+    display: block;
+}
+
+.product-detial {
+    display: none;
+    width: 992px;
+    height: 100%;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    box-shadow: 0 3px 4xp rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.product-detial table {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+}
+
+.product-detial table tr td img {
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+}
+
+.product-detial table tr td img,
+.product-detial table tr td p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding-left: 10px;
+    color: #424242;
+    transition: color 0.2s;
+}
+
+.product-detial table tr td:hover>p {
+    color: #FE6900;
+    cursor: pointer;
+}
+
+/* 轮播图滑动门 end */
+
+/* 广告模块 start */
+.ad-wrap {
+    height: 170px;
+    padding-top: 14px;
+    background-color: #fff;
+    display: flex;
+    /* 使内容均匀排列 */
+    justify-content: space-between;
+    position: relative;
+}
+
+.grid-ad {
+    height: 170px;
+    width: 234px;
+    background-color: #5f5750;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.grid-ad li {
+    float: left;
+    width: 76px;
+    height: 82px;
+    padding-top: 18px;
+    box-sizing: border-box;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.grid-ad li p {
+    color: #fff;
+}
+
+.grid-ad li i {
+    font-size: 24px;
+    margin-bottom: 4px;
+    display: block;
+    color: #fff;
+}
+
+.grid-ad li:hover {
+    opacity: 1;
+}
+
+.ad-wrap img {
+    height: 170px;
+    cursor: pointer;
+}
+
+/* 广告模块 end */
+
+/* 用于分割的广告栏 start */
+.divide-banner img {
+    height: 120px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+/* 用于分割的广告栏 end */
+
+/* 主体部分的灰色背景 start */
+.main-body-background {
+    padding-top: 22px;
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+}
+
+/* 主体部分的灰色背景 end */
+
+/* 商品类别标题 start */
+.product-title {
+    position: relative;
+    display: flex;
+    height: 58px;
+    line-height: 58px;
+}
+
+.product-title h2 {
+    font-weight: lighter;
+    font-size: 22px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", ;
+    color: #333;
+}
+
+.product-title a {
+    margin-left: auto;
+}
+
+.product-title p {
+    display: inline-block;
+    font-size: 16px;
+    color: #424242;
+}
+
+.product-title i {
+    font-size: 12px;
+}
+
+.product-title a:hover,
+.product-title a:hover p {
+    color: #FE6900;
+    transition: color 0.2s;
+}
+
+/* 商品类别标题 end */
+
+
+/* 手机广告区 start */
+.phone-block {
+    display: flex;
+}
+
+.left-block {
+    width: 234px;
+    height: 628px;
+}
+
+.left-block img {
+    width: 100%;
+}
+
+.right-block {
+    width: 992px;
+    display: flex;
+    /* 不改变元素大小自动换行 */
+    flex-wrap: wrap;
+}
+
+.right-block li {
+    height: 260px;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.right-block li img {
+    height: 160px;
+    width: 160px;
+}
+
+.phone-type {
+    font-size: 14px;
+    color: #333;
+}
+
+.phone-feature {
+    margin: 14px;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.phone-price {
+    font-size: 14px;
+}
+
+.phone-price span {
+    color: #FE6900;
+}
+
+.phone-price del {
+    color: #b0b0b0;
+}
+
+/* 鼠标悬停时，带阴影和放大效果 */
+.ad-box-on-hover:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 手机广告区 end */
+
+/* 家电广告区 start */
+
+/* 右上小导航栏 */
+.household-appliances-types {
+    display: flex;
+    margin-left: auto;
+}
+
+.household-appliances-types p {
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #333;
+}
+
+.household-appliances-types p:hover {
+    color: #FE6900;
+    cursor: pointer;
+    border-bottom: 2px solid #ff6700;
+}
+
+.household-appliances-body {
+    display: flex;
+}
+
+.household-appliances-left-block {
+    width: 234px;
+}
+
+.household-appliances-right-block {
+    width: 992px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.household-appliances-left-block img {
+    height: 300px;
+    width: 234px;
+    margin-bottom: 14px;
+}
+
+.household-appliances-right-block li {
+    height: 246px;
+    width: 234px;
+    position: relative;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.household-appliances-right-block img {
+    width: 150px;
+    height: 150px;
+}
+
+.comment {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #fff
+}
+
+.comment-user {
+    font-size: 12px;
+    color: #ffffff99;
+}
+
+.comment-pop {
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    bottom: -75px;
+    padding: 8px 30px;
+    box-sizing: border-box;
+    background-color: #FE6900;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.household-appliances-right-block li:hover .comment-pop{
+    bottom: 0;
+    opacity: 1;
+}
+
+/* 家电广告区 end */
+
+/* 视频区 start */
+.video-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-list li{
+    width: 296px;
+    height: 285px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.video-list li img{
+    width: 296px;
+    margin-bottom: 28px;
+}
+
+.video-title{
+   font-size: 14px; 
+   color: #333;
+}
+
+.vedio-describe{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.video-cover{
+    position: relative;
+}
+
+.play-video-button i{
+    font-size: 20px;
+}
+
+.play-video-button{
+    position: absolute;
+    bottom: 25%;
+    left: 8%;
+    padding: 1px 5px;
+    padding-left: 6px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+.video-cover:hover .play-video-button{
+    background-color: #FE6900;
+    border: 2px solid #FE6900;
+}
+/* 视频区 end */

@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "591722",
+      "name": "wxb工具",
+      "font_class": "wxbgongju",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    }
+  ]
+}

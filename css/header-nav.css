@@ -1,0 +1,287 @@
+/* 顶部广告 start*/
+header {
+    width: 100%;
+    height: 120px;
+    /* 隐藏超出的部分 */
+    overflow: hidden;
+    position: relative;
+}
+
+header img {
+    height: 120px;
+    position: absolute;
+    /* 实现居中 */
+    /* 将 header img 元素的左边缘定位到其容器的左边缘的50%处 */
+    left: 50%;
+    /* 向左移动元素自身宽度的50%。 */
+    transform: translateX(-50%);
+}
+
+/* 顶部广告 end*/
+
+/* 黑色导航栏 start */
+nav {
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 12px;
+    /* 简化 margin 设置 */
+    background-color: #333;
+}
+
+nav .container {
+    max-width: 1226px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* 水平居中 */
+    margin: 0 auto;
+}
+
+.topinfo-nav {
+    /* 填充左侧的所有剩余空间，从而推到容器的最右边 */
+    margin-left: auto;
+    position: relative;
+    z-index: 60;
+}
+
+.topbar-nav {
+    position: relative;
+}
+
+/* 导航栏链接和分隔符样式 */
+.topinfo-nav a,
+.topbar-nav a {
+    color: #b0b0b0;
+    position: relative;
+    display: inline-block;
+}
+
+/* 鼠标悬停时链接字体颜色 */
+.topinfo-nav a:hover,
+.topbar-nav a:hover {
+    color: #fff;
+}
+
+/* 分隔符样式 */
+.sep {
+    color: #424242;
+    /* 设置分隔符的颜色 */
+    font-weight: bold;
+    /* 可选：加粗显示分隔符 */
+    padding: 0 5px;
+}
+
+.shoppingcar:hover {
+    background-color: #fff;
+    color: #FE6900;
+}
+
+.downloadQR {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 110%;
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    color: #424242;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 75;
+}
+
+.download:hover .downloadQR {
+    display: block;
+}
+
+.downloadQR img {
+    height: 100px;
+    margin: 10px auto;
+}
+
+.shoppingcar {
+    height: 40px;
+    display: inline-block;
+    background-color: #424242;
+    text-align: center;
+    padding: 0 20px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.shoppingcar:hover .tooltip {
+    display: block;
+}
+
+.shoppingcar .tooltip {
+    position: absolute;
+    /* 绝对定位 */
+    display: none;
+    height: 70px;
+    line-height: 70px;
+    top: 100%;
+    /* 位于购物车按钮的下方 */
+    right: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+/* 黑色导航栏 end */
+
+/* 白色导航栏 */
+.white-nav-background{
+    position: relative;
+    z-index: 50;
+}
+
+/* 白色导航栏下滑框 */
+.nav-detial-block{
+    display: none;
+    position: absolute;
+    z-index: 40;
+    top: 100px;
+    left: 0;
+    height: 229px;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid rgba(39, 39, 39, 0.1);
+    box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+}
+
+.img-box img{
+    width: 160px;
+    padding-bottom:8px;
+    padding-top: 8px;
+    margin-right: 20px;
+}
+
+.nav-detial-block .wrap ul{
+    float: left;
+}
+
+.nav-detial-block .wrap li{
+    line-height: normal;
+    border-right: 1px solid #b0b0b045;
+}
+
+.white-nav {
+    height: 100px;
+    background-color: #fff;
+    line-height: 100px;
+    display: flex;
+}
+
+.white-nav li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.white-nav li a {
+    color: #424242;
+    z-index: 10;
+    position: relative;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.white-nav-left {
+    margin-left: 200px;
+}
+
+.white-nav-left li a:hover {
+    color: #FE6900;
+    transition: color 0.2s;
+}
+
+.white-nav-left li:hover .nav-detial-block{
+    display: block;
+}
+
+.white-nav .logo {
+    width: 50px;
+    height: 50px;
+    background-color: #FE6900;
+    border-radius: 20px;
+    margin: auto 0;
+    position: relative;
+    line-height: 50px;
+    display: flex;
+    overflow: hidden;
+}
+
+.white-nav .logo span {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    transition: all 0.2s;
+}
+
+.white-nav .logo .mi-logo {
+    left: 10px;
+}
+
+.white-nav .logo .mi-home {
+    right: 100%;
+}
+
+.white-nav .logo:hover .mi-logo {
+    left: 100%;
+}
+
+.white-nav .logo:hover .mi-home {
+    right: 10px;
+}
+
+.search {
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: border-color 0.2s;
+}
+
+.search input,
+.search button {
+    border: 1px solid #e0e0e0;
+    border-radius: 0%;
+    background-color: #fff;
+}
+
+.search input {
+    padding: 0 10px;
+    height: 48px;
+    width: 223px;
+    border-right: 0;
+    outline: none;
+}
+
+.search button {
+    width: 52px;
+    height: 50px;
+    color: #616161;
+    font-weight: 700;
+}
+
+
+.search button:hover {
+    background-color: #FE6900;
+    color: #fff;
+}
+
+.search:hover input,
+.search:hover button {
+    border-color: #b0b0b0;
+}
+
+.search:focus-within input,
+.search:focus-within button {
+    border-color: #FE6900;
+}
+/* 白色导航栏 */

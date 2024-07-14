@@ -1,0 +1,109 @@
+.service-block {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    padding: 27px 0;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.service-block li {
+    width: 242px;
+}
+
+.first-service {
+    border: none;
+}
+
+.normal-service {
+    border-left: 0.67px solid rgb(224, 224, 224);
+}
+
+.service-block li span {
+    margin-left: 6px;
+    color: black;
+}
+
+.service-block li:hover span,
+.service-block li:hover i {
+    color: #FE6900;
+}
+
+.footer-links {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-block {
+    width: 160px;
+    text-align: left;
+}
+
+.link-title {
+    margin-bottom: 26px;
+    font-size: 14px;
+    color: #424242;
+}
+
+.link-block li a {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #757575;
+}
+
+.link-block li a:hover {
+    color: #FE6900;
+}
+
+.contact-block {
+    width: 251px;
+    border-left: 0.67px solid rgb(224, 224, 224);
+}
+
+.phone-number {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #FF6700;
+}
+
+.available-time {
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #616161;
+}
+
+.contact-button {
+    width: 119.33px;
+    height: 29.33px;
+    color: #FF6700;
+    background-color: #fff;
+    border: 1px solid #FF6700;
+}
+
+.contact-button:hover {
+    color: #fff;
+    background-color: #FF6700;
+}
+
+.subscribe-title {
+    margin-top: 10px;
+}
+
+.contact-button-wrap {
+    width: 100%;
+}
+
+.subscribe-title {
+    display: inline-block;
+    font-size: 12px;
+    color: #616161;
+}
+
+.contact-block a {
+    color: #616161;
+}
+
+.contact-block a:hover {
+    color: #FF6700;
+}
